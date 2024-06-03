@@ -25,4 +25,10 @@ int main(){
     }
     //selesai dalam menulis sekarang tutup filenya
     outfile.close();
+
+    //Membuka file dalam node membaca
+    ifstream infile;
+    //menunjuk ke sebuah file
+    infile.open("contohfile.txt");
+
 }
